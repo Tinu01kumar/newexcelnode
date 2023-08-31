@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import styled from "styled-components";
 import { BounceLoader } from "react-spinners";
-import { FaUpload } from "react-icons/fa"; // Import FontAwesome's upload icon
+import { FaUpload } from "react-icons/fa"; 
 
 const FormContainer = styled.div`
   display: flex;

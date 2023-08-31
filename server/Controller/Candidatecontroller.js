@@ -15,14 +15,14 @@ async function processExcelData(filePath) {
         name: row.getCell(1).value,
         email: row.getCell(2).value,
         mobile: row.getCell(3).value,
-        dateOfBirth: row.getCell(4).value, // Make sure the format matches the model's Date type
+        dateOfBirth: row.getCell(4).value, 
         workExperience: row.getCell(5).value,
         resumeTitle: row.getCell(6).value,
         currentLocation: row.getCell(7).value,
         postalAddress: row.getCell(8).value,
         currentEmployer: row.getCell(9).value,
         currentDesignation: row.getCell(10).value,
-        // Add other Excel columns here
+    
       });
     }
   });
